@@ -71,7 +71,7 @@ os.system("clear")
 print("Z3Z 0S1M3NU")
 os.system("clear")
 os.system("git clone https://github.com/Matezin12/Z3z")
-os.system("https://github.com/Matezin12/Z3Z-PUPPET")
+os.system("git clone https://github.com/Matezin12/Z3Z-PUPPET")
 time.sleep(10)
 os.system("clear")
 print(" \033[036m ▒█▀▀▀█ ▒█▀▀▀█ ▄█░ ▒█▀▄▀█ █▀▀█ ")
@@ -90,17 +90,20 @@ while escolha == False :
     nivel = input(" ESC0LH4 4 F3RRAM3NT4: ")
 
     if nivel == "1":
-        os.system("clear")    
+        os.system("clear") 
+        os.system("cd Z3z")
         os.system ("python3 geo.py") 
         escolha = True
 
     elif nivel == "2":
-        os.system("clear")    
+        os.system("clear")
+        os.system("cd Z3z")
         os.system("python3 pilt.py")
         escolha = True
 
     elif nivel == "3":
         os.system("clear")
+        os.system("cd Z3z")
         os.system("python3 s7.py")
         escolha = True
 
