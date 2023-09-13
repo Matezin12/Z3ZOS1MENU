@@ -77,6 +77,7 @@ os.system("clear")
 print(" \033[036m ▒█▀▀▀█ ▒█▀▀▀█ ▄█░ ▒█▀▄▀█ █▀▀█ ")
 print("  ▒█░░▒█ ░▀▀▀▄▄ ░█░ ▒█▒█▒█ ░░▀▄ ")
 print("  ▒█▄▄▄█ ▒█▄▄▄█ ▄█▄ ▒█░░▒█ █▄▄█ \033[036m ")
+print("                                  ")
 print(" \033[1;32m 1: G30L0CK4 SIMPLE v1.0 \033[1;32m   ")
 print(" \033[1;32m 2: P4DR40 LINGU1 Z3Z v1.0 \033[1;32m ")
 print(" \033[1;32m 3: 4CH4 D0M1NIO 1P v1.0 \033[1;32m   ")
@@ -94,20 +95,17 @@ while escolha == False :
         escolha = True
 
     elif nivel == "2":
-        os.system("clear")
-        os.system("cd Z3z")
+        os.system("clear")    
         os.system("python3 pilt.py")
         escolha = True
 
     elif nivel == "3":
         os.system("clear")
-        os.system("cd Z3z")
         os.system("python3 s7.py")
         escolha = True
 
     elif nivel == "4":
         os.system("clear")
-        os.system("cd Z3Z-PUPPET")
         os.system("python3 Z3Z-PUPPET")
         escolha = True
 
