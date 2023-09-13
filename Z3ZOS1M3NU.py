@@ -86,25 +86,22 @@ print(" \033[31m x: sair \033[31m")
 
 escolha = False
 
-while escolha == False : 
+while not escolha: 
     nivel = input(" ESC0LH4 4 F3RRAM3NT4: ")
 
     if nivel == "1":
         os.system("clear") 
-        os.system("cd Z3z")
-        os.system ("python3 geo.py") 
+        os.system("cd Z3z && python3 geo.py") 
         escolha = True
 
     elif nivel == "2":
         os.system("clear")
-        os.system("cd Z3z")
-        os.system("python3 pilt.py")
+        os.system("cd Z3z && python3 pilt.py")
         escolha = True
 
     elif nivel == "3":
         os.system("clear")
-        os.system("cd Z3z")
-        os.system("python3 s7.py")
+        os.system("cd Z3z && python3 s7.py")
         escolha = True
 
     elif nivel == "4":
@@ -114,5 +111,5 @@ while escolha == False :
 
     elif nivel == "x":
         os.system("clear")    
-        os.system ("cd ~ ")
+        os.chdir("~")
         escolha = True
