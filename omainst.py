@@ -106,8 +106,9 @@ while not escolha:
 
     elif nivel == "4":
         os.system("clear")
-        os.system("^C")
-        os.system("cd oshdr")
+        os.system("cd
+        os.system("cd oshrm")
+        os.system("cd oshdr")          
         os.system("python3 os.py")
         escolha = True
 
