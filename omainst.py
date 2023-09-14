@@ -91,23 +91,23 @@ while not escolha:
 
     if nivel == "1":
         os.system("clear") 
-        os.system("cd Z3z && python3 geo.py") 
+        os.system("cd Z3z && python3 trc.py") 
         escolha = True
 
     elif nivel == "2":
         os.system("clear")
-        os.system("cd Z3z && python3 pilt.py")
+        os.system("cd Z3z && python3 hrd.py")
         escolha = True
 
     elif nivel == "3":
         os.system("clear")
-        os.system("cd Z3z && python3 s7.py")
+        os.system("cd Z3z && python3 fsh.py")
         escolha = True
 
     elif nivel == "4":
         os.system("clear")
-        os.system("cd && Z3Z-PUPPET")
-        os.system("python3 Z3Z-PUPPET")
+        os.system("cd Z3Z-PUPPET")
+        os.system("python3 os.py")
         escolha = True
 
     elif nivel == "x":
