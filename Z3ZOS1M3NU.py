@@ -106,6 +106,7 @@ while not escolha:
 
     elif nivel == "4":
         os.system("clear")
+        os.system("cd && Z3Z-PUPPET")
         os.system("python3 Z3Z-PUPPET")
         escolha = True
 
